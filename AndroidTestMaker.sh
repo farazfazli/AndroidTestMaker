@@ -20,7 +20,7 @@ read -r userstory
 printf "App filter (enter for default): "
 read -r filter
 if [ -z "$filter" ]; then
-	filter=contap
+	filter=default
 fi
 gawk '{printf "%s %d %d %d\n", substr($1, 1, length($1) -1), strtonum("0x"$2), strtonum("0x"$3), strtonum("0x"$4)}' touch-events.sh > touch-events-new.sh
 sed -i -e 's/^/sendevent /' touch-events-new.sh
