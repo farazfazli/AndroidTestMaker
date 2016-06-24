@@ -7,16 +7,17 @@ Automated Android Blackbox Testing. Save a dump of kernel input events, and repl
 ./AndroidTestMaker.sh
 Enter a command or test name (SlidingTest/create/run): TestNameHere
 ```
+Press CTRL-C to stop recording touch input
 
 ## To transfer a recorded test and run it
-First press CTRL-C to stop recording touch input
-Go back to the initial screen
+Important: First, go back to the initial screen from where you started recording the test.
 ```
 ./AndroidTestMaker.sh
 Enter a command or test name (SlidingTest/create/run): create
 ```
 
 ## To run an existing test available on the device
+Important: First, go back to the initial screen from where you started recording the test.
 ```
 ./AndroidTestMaker.sh
 Enter a command or test name (SlidingTest/create/run): run
