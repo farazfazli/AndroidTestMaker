@@ -1,6 +1,5 @@
 # AndroidTestMaker
-Automated Android Blackbox Testing. Save a dump of kernel input events, and replay them. Tests are saved on the device, so you can run them later.
-
+Automated Android Blackbox Testing. Save a dump of kernel input events, and replay them. Tests are saved on the device, so you can run them later. No root required.
 
 ## To record a test
 ```
